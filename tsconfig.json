@@ -48,7 +48,9 @@
     "reports/**/*.ts",
     "utils/**/*.ts",
     "tests/**/*.ts",
-    "dummy/**/*.ts"
+    "dummy/**/*.ts",
+    "./server.ts",
+    "./main.ts",
   ],
   "exclude": ["node_modules"]
 }

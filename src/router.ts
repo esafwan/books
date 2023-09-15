@@ -8,6 +8,8 @@ import PrintView from 'src/pages/PrintView/PrintView.vue';
 import ReportPrintView from 'src/pages/PrintView/ReportPrintView.vue';
 import QuickEditForm from 'src/pages/QuickEditForm.vue';
 import Report from 'src/pages/Report.vue';
+import Yeah from './pages/Yeah.vue';
+import Calculator from './pages/Calculator.vue';
 import Settings from 'src/pages/Settings/Settings.vue';
 import TemplateBuilder from 'src/pages/TemplateBuilder/TemplateBuilder.vue';
 import type { HistoryState } from 'vue-router';
@@ -15,6 +17,11 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import { historyState } from './utils/refs';
 
 const routes: RouteRecordRaw[] = [
+  { path: '/yeah', component: Yeah },
+  {
+    path: '/calculator',    
+    component: Calculator,
+  },
   {
     path: '/',
     component: Dashboard,

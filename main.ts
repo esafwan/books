@@ -210,3 +210,8 @@ function bufferProtocolCallback(
 }
 
 export default new Main();
+
+// // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+// const startServer = require('./server');
+// // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+// startServer();

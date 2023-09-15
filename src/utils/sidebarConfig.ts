@@ -291,5 +291,16 @@ function getCompleteSidebar(): SidebarConfig {
         },
       ] as SidebarItem[],
     },
+    {
+      label: t`Yeah!`,
+      name: 'yeah',
+      route: '/yeah',
+      // Add more properties as needed
+    },
+    {
+      label: t`Calculator!`,
+      route: '/calculator',
+      // Add more properties as needed
+    },
   ].flat();
 }
